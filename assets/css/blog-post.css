@@ -39,7 +39,7 @@
 }
 
 .image1 {
-    background-image: url('/assets/images/3.jpg');
+    background-image: url('../images/3.jpg');
 }
 
 .author-info-wrapper {

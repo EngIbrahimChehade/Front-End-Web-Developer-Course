@@ -95,27 +95,27 @@
 }
 
 .image1 {
-    background-image: url('/assets/images/1.jpg');
+    background-image: url('../images/1.jpg');
 }
 
 .image2 {
-    background-image: url('/assets/images/2.jpg');
+    background-image: url('../images/2.jpg');
 }
 
 .image3 {
-    background-image: url('/assets/images/3.jpg');
+    background-image: url('../images/3.jpg');
 }
 
 .image4 {
-    background-image: url('/assets/images/4.jpg');
+    background-image: url('../images/4.jpg');
 }
 
 .image5 {
-    background-image: url('/assets/images/5.jpg');
+    background-image: url('../images/5.jpg');
 }
 
 .image6 {
-    background-image: url('/assets/images/6.jpg');
+    background-image: url('../images/6.jpg');
 }
 
 @media (max-width: 700px) {
