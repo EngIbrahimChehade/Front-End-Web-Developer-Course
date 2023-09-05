@@ -1,0 +1,119 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-columns: 22vw 1fr;
+    grid-template-areas:
+        "header header"
+        "aside content"
+        "footer footer";
+}
+
+#header {
+    grid-area: header;
+    border-bottom: 1px solid var(--black);
+    display: flex;
+    align-items: center;
+    background-color: var(--green);
+    color: white;
+}
+
+.default-padding {
+    padding: 0rem 1rem;
+}
+
+#aside {
+    grid-area: aside;
+}
+
+#content {
+    grid-area: content;
+    border-left: 1px solid var(--black);
+    background-color: #f3f3f3;
+    overflow-y: auto;
+}
+
+#footer {
+    grid-area: footer;
+    border-top: 1px solid var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.navbar-list {
+    list-style: none;
+    list-style: none;
+    margin: 0;
+    padding: 0rem;
+}
+
+.navbar-list li {
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.m-l-1 {
+    margin-left: 1rem;
+}
+
+.aside-title {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-li {
+    padding: 0rem .5rem;
+}
+
+.card {
+    border: 1px solid var(--black);
+    padding: 1rem;
+    border-radius: .8rem;
+}
+
+.blog-post-card {
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.img {
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+.image1 {
+    background-image: url('/assets/images/1.jpg');
+}
+
+.image2 {
+    background-image: url('/assets/images/2.jpg');
+}
+
+.image3 {
+    background-image: url('/assets/images/3.jpg');
+}
+
+.image4 {
+    background-image: url('/assets/images/4.jpg');
+}
+
+.image5 {
+    background-image: url('/assets/images/5.jpg');
+}
+
+.image6 {
+    background-image: url('/assets/images/6.jpg');
+}
