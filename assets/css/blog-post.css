@@ -71,6 +71,15 @@
     justify-content: center;
 }
 
+#footer .section .row1 {
+    text-decoration: underline;
+}
+
+#footer .section .row2 .link {
+    text-decoration: none;
+    color: var(--white)
+}
+
 #footer .section .row2 .item {
     width: 150px;
 }
