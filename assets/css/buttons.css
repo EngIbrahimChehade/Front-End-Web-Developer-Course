@@ -12,6 +12,6 @@
 
 .btn:hover{
     transition: 0.3s;
-    background-color: var(--white);
-    color: var(--green);
+    background-color: var(--greenDark);
+    color: var(--white);
 }

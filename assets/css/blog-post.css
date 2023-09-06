@@ -83,3 +83,15 @@
 #footer .section .row2 .item {
     width: 150px;
 }
+
+.link{
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.link .text{
+    padding: .5rem;
+}
